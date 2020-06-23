@@ -20,6 +20,7 @@ void ASpiritTowerPlayerController::PlayerTick(float DeltaTime)
 	// keep updating the destination every tick while desired
 	if (bMoveToMouseCursor)
 	{
+		MyServerFunc();
 		MoveToMouseCursor();
 	}
 }
@@ -109,4 +110,11 @@ void ASpiritTowerPlayerController::OnSetDestinationReleased()
 {
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
+}
+void ASpiritTowerPlayerController::MyServerFunc_Implementation() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Llamade de cliente y ejecutado en server"));
+}
+
+bool ASpiritTowerPlayerController::MyServerFunc_Validate() {
+	return true;
 }

@@ -13,6 +13,10 @@ class ASpiritTowerPlayerController : public APlayerController
 
 public:
 	ASpiritTowerPlayerController();
+	UFUNCTION(Reliable, Server, WithValidation)
+	void MyServerFunc();
+	void MyServerFunc_Implementation();
+	bool MyServerFunc_Validate();
 
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
