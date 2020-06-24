@@ -112,7 +112,7 @@ void ASpiritTowerPlayerController::OnSetDestinationReleased()
 	bMoveToMouseCursor = false;
 }
 void ASpiritTowerPlayerController::MyServerFunc_Implementation() {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Llamade de cliente y ejecutado en server"));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Llamade de cliente y ejecutado en server cambio"));
 }
 
 bool ASpiritTowerPlayerController::MyServerFunc_Validate() {
