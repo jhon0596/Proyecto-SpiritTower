@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/backtracking.dir/main.cpp.o CMakeFiles/backtracking.dir/LinkedList.cpp.o CMakeFiles/backtracking.dir/Node.cpp.o  -o backtracking.exe -Wl,--out-implib,libbacktracking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

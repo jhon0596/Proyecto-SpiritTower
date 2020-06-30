@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/grero/CLionProjects/backtracking/LinkedList.cpp
+LinkedList.h
+/cygdrive/c/Users/grero/CLionProjects/backtracking/LinkedList.h
+iostream
+-
+
+/cygdrive/c/Users/grero/CLionProjects/backtracking/LinkedList.h
+cstddef
+-
+Node.h
+/cygdrive/c/Users/grero/CLionProjects/backtracking/Node.h
+
+/cygdrive/c/Users/grero/CLionProjects/backtracking/Node.h
+cstddef
+-
+string
+-
+
